@@ -10,4 +10,7 @@ public class Calculator {
     public void printRandomLong(){
         System.out.println(new Random().nextLong());
     }
+    public void printRandomDouble(){
+        System.out.println(new Random().nextDouble());
+    }
 }
